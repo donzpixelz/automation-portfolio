@@ -1,18 +1,18 @@
 # Conversation Export — Canonical
 
-**Take an exact conversation request, resolve the correct record, export it, and verify the requested result.**
+**Take an exact conversation export request outside the Chrome extension, resolve the correct project and conversation, perform the export through the canonical workflow/API path, and verify the result.**
 
 ## Why it exists
 
-A conversation export is only useful if it is the conversation that was actually requested. This workflow resolves the project and conversation identity before running the export, rejects ambiguity, and verifies the resulting branch.
+BranchBind handles the browser-side case while you are viewing a conversation in Chrome. Conversation Export handles a different job: an exact export request comes in from the CLI, web app, or Desktop-side tooling, and the system resolves the requested record before exporting it.
 
 ## What it does
 
-1. Receives an export request through a webhook.
-2. Resolves the exact project/conversation identity.
-3. Runs the proven export bridge.
+1. Receives an exact export request outside the Chrome extension.
+2. Resolves the correct project/conversation identity and rejects ambiguity.
+3. Performs the export through the canonical workflow/API path.
 4. Returns Markdown and exact conversation metadata.
-5. Confirms that the current branch reaches the root.
+5. Verifies that the requested branch reaches the root.
 
 ## Verified result
 
@@ -32,7 +32,9 @@ The workflow is `vmHnoXvpNXMqBWQh`, **Conversation Export — Canonical**.
 
 ## Built with
 
-**n8n · Webhooks · REST APIs · JSON · authenticated routing · verification**
+**CLI · web app · Desktop tooling · REST APIs · JSON · n8n**
+
+n8n is the implementation and proof layer for the canonical workflow; it is not the product identity.
 
 ## Inspect
 
