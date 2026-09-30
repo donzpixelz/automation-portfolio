@@ -7,6 +7,7 @@ I build practical automation, integrations, browser tools, and AI-assisted syste
 | [BranchBind](./branchbind/) | Chrome extension for exporting the exact ChatGPT branch currently being viewed to Markdown, GitHub, or download | Chrome MV3, JavaScript, GitHub |
 | [PageShot](./pageshot/) | Captures full-page and responsive Chrome screenshots | Swift, AppKit, AppleScript |
 | [TrafficMonitor](./traffic-monitor/) | Tracks visitor sessions and preserves paid-traffic attribution | Cloudflare Workers, D1, R2, GAQL |
+| [Lead Intake & Human Handoff](./lead-intake/) | Example n8n workflow showing how multiple inbound channels can feed one shared qualification and routing process | n8n, Webhooks, APIs, routing, CRM |
 
 ## Supporting work
 
