@@ -4,9 +4,9 @@ I build practical automation, integrations, browser tools, and AI-assisted syste
 
 | Project | What it does | Built with |
 | --- | --- | --- |
-| [BranchBind](./branchbind/) | Saves the exact ChatGPT branch currently being viewed | Chrome MV3, JavaScript, GitHub |
+| [BranchBind](./branchbind/) | Chrome extension for exporting the exact ChatGPT branch currently being viewed to Markdown, GitHub, or download | Chrome MV3, JavaScript, GitHub |
 | [PageShot](./pageshot/) | Captures full-page and responsive Chrome screenshots | Swift, AppKit, AppleScript |
-| [Conversation Export](./conversation-export/) | Resolves and exports an exact conversation with verification | n8n, webhooks, REST APIs |
+| [Conversation&nbsp;Export](./conversation-export/) | Takes an exact export request outside the Chrome extension, resolves the right conversation, performs the export, and verifies the result | Web app, CLI, Desktop, APIs |
 | [TrafficMonitor](./traffic-monitor/) | Tracks visitor sessions and preserves paid-traffic attribution | Cloudflare Workers, D1, R2, GAQL |
 
 ## Supporting work
