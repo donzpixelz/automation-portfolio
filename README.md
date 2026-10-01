@@ -1,6 +1,6 @@
 # Automation & AI Portfolio
 
-I build practical automation, integrations, browser tools, and AI-assisted systems—usually where a messy real-world process needs to become something reliable and verifiable.
+I build practical systems that make messy operational work easier to run and verify: browser extensions, macOS utilities, traffic attribution, API integrations, and human-in-the-loop automation.
 
 | Project | What it does | Built with |
 | --- | --- | --- |
